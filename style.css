@@ -158,7 +158,8 @@ nav {
 
 .about-section {
   background-color: #fdf0e9;
-  height: 100vh;
+  /* height: 100%; */
+  padding-bottom: 4rem;
   .image-section {
     padding: 1.9rem 0 2rem;
     grid-template-columns: repeat(5, 1fr);
@@ -197,7 +198,7 @@ nav {
     letter-spacing: -1px;
     padding-bottom: 1rem;
   }
-  span{
+  span {
     color: #391400;
     font-size: 19px;
     line-height: 30px;
@@ -205,13 +206,13 @@ nav {
     /* padding-bottom: 2rem; */
   }
   p {
-    color: #391400A3;
+    color: #391400a3;
     font-weight: 400;
     font-size: 14px;
     max-width: 23rem;
     line-height: 32px;
   }
-  button{
+  button {
     background-color: white;
     color: #391400;
     height: 48px;
@@ -221,5 +222,26 @@ nav {
     border-radius: 6px;
     font-size: 14px;
     margin-top: 2rem;
+  }
+}
+.about-info {
+  grid-template-columns: 1fr 1fr 1fr;
+  max-width: 80rem;
+  margin: 0 14%;
+  div {
+    padding: 2rem 2rem;
+    border: 1px solid #f3d1bf;
+    h3 {
+      font-weight: 800;
+      font-size: 40px;
+      line-height: 48px;
+      color: #391400;
+    }
+    p {
+      /* text-align: center/; */
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 32px;
+    }
   }
 }
