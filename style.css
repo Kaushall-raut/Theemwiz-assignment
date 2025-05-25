@@ -23,6 +23,14 @@ body {
 .container {
   margin: auto 10%;
 }
+h5 {
+  text-transform: uppercase;
+  color: #ef6d58;
+  font-weight: 400;
+  letter-spacing: 3px;
+  font-size: 16px;
+  line-height: 32px;
+}
 
 /*! Nav css */
 
@@ -331,18 +339,10 @@ nav {
 
   .video-left,
   .video-right {
-    margin: auto 14%;
+    margin: auto 18%;
     padding-bottom: 6rem;
   }
   .video-right {
-    h5 {
-      text-transform: uppercase;
-      color: #ef6d58;
-      font-weight: 400;
-      letter-spacing: 3px;
-      font-size: 16px;
-      line-height: 32px;
-    }
     h3 {
       color: #391400;
       font-weight: 800;
@@ -357,4 +357,100 @@ nav {
       line-height: 32px;
     }
   }
+}
+
+.portfolio-content {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 4rem 0;
+  h2 {
+    color: white;
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: -1px;
+    padding: 1rem 0;
+  }
+}
+
+.portfolio-nav {
+  ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+  }
+  li {
+    list-style: none;
+    /* text-decoration: none; */
+  }
+
+  a {
+    text-decoration: none;
+    text-transform: capitalize;
+
+    font-weight: 400;
+    line-height: 32px;
+    font-size: 16px;
+    color: #ffffffa3;
+  }
+}
+.portfolio-work {
+  grid-template-columns: 0.5fr 1fr;
+  gap: 2rem;
+  img {
+    z-index: -1;
+  }
+  .first,
+  .second {
+    position: relative;
+    margin-bottom: 1rem;
+    h3 {
+      position: absolute;
+      top: 80%;
+      left: 10%;
+    }
+    button {
+      position: absolute;
+      top: 65%;
+      left: 10%;
+      border-radius: 19px;
+      img {
+        height: 38px;
+        width: 68px;
+      }
+    }
+    h3 {
+      font-size: 40px;
+      font-weight: 800;
+      line-height: 48px;
+      color: white;
+    }
+  }
+  .first > img {
+    height: 416px;
+    width: 470px;
+  }
+}
+.btn-container {
+  margin: 4rem 0;
+  /* background-color: red; */
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  .explore {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 100%;
+    height: 48px;
+    padding: 8px;
+    width: 129px;
+    border-radius: 6px;
+    border: 1px solid #FFFFFF4B;
+    color: white;
+    background-color: transparent;
+  }
+  /* align-items: center; */
 }
