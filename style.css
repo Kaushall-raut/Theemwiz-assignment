@@ -253,12 +253,12 @@ nav {
   grid-template-rows: 0.5fr 0.5fr;
   background-color: #fdf0e9;
   padding: 4rem 0 0 0;
-  .container{
+  .container {
     margin: auto 18%;
   }
   /* padding: 0 4rem; */
   /* border: 1px solid #f3d1bf; */
-      /* padding: auto %; */
+  /* padding: auto %; */
   .border {
     margin: auto 15%;
     margin-top: 4rem;
@@ -322,4 +322,39 @@ nav {
 
 .grid-col-two {
   grid-template-columns: 0.5fr 2fr;
+}
+
+.video-section {
+  /* gap: 0; */
+  background-color: #fdf0e9;
+  grid-template-columns: 1fr 1fr;
+
+  .video-left,
+  .video-right {
+    margin: auto 14%;
+    padding-bottom: 6rem;
+  }
+  .video-right {
+    h5 {
+      text-transform: uppercase;
+      color: #ef6d58;
+      font-weight: 400;
+      letter-spacing: 3px;
+      font-size: 16px;
+      line-height: 32px;
+    }
+    h3 {
+      color: #391400;
+      font-weight: 800;
+      font-size: 40px;
+      line-height: 48px;
+      padding: 1rem 0;
+    }
+    p {
+      color: #391400a3;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 32px;
+    }
+  }
 }
