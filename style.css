@@ -638,3 +638,100 @@ nav {
   height: 560px;
   background-color: white;
 }
+
+.faq-section {
+  background-color: #fdf0e9;
+}
+
+.faq-container {
+  grid-template-columns: repeat(2, 1fr);
+
+  .faq-text {
+    max-width: 30rem;
+  }
+
+  h5 {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  h3 {
+    font-weight: 800;
+    font-size: 40px;
+    color: #391400;
+    line-height: 48px;
+    margin-bottom: 1.4rem;
+  }
+  p {
+    color: #391400a3;
+    line-height: 32px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+  }
+  a {
+    text-transform: capitalize;
+    color: #391400;
+    font-size: 16px;
+    line-height: 32px;
+    text-decoration: none;
+    margin-top: 2rem;
+  }
+}
+
+.faq-question {
+  grid-template-rows: 1fr 0.5fr 0.5fr 0.5fr;
+  /* justify-content: ; */
+  gap: 0;
+  /* border: 1px solid #f3d1bf; */
+  /* align-items:self-end; */
+  /* padding: 1rem; */
+  .first-q {
+    padding: 1rem;
+    /* padding-bottom: 2rem; */
+    background-color: white;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    h4 {
+      padding-right: 15rem;
+      /* justify-content: space-between; */
+      display: inline-block;
+      margin-bottom: 2rem;
+    }
+    p {
+      font-size: 16px;
+      font-weight: 400;
+    }
+  }
+  .third-q{
+height: 1rem;
+  }
+  .second-q,
+  .third-q,
+  .fourth-q {
+    padding: 2rem;
+    div {
+      display: flex;
+      /* margin-bottom: 2rem; */
+      justify-content: space-between;
+    }
+    /* margin-bottom: 2rem; */
+    height: 100px;
+    /* height: 113px; */
+    h4 {
+      /* padding-right: 15rem; */
+      /* justify-content: space-between; */
+      /* display: inline-block; */
+      /* margin-bottom: 2rem; */
+    }
+    p {
+      font-size: 16px;
+      font-weight: 400;
+    }
+      border: 1px solid #f3d1bf;
+  }
+  /* border: 1px solid #f3d1bf; */
+}
+
+.faq-border {
+}
