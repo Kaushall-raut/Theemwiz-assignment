@@ -448,9 +448,62 @@ nav {
     padding: 8px;
     width: 129px;
     border-radius: 6px;
-    border: 1px solid #FFFFFF4B;
+    border: 1px solid #ffffff4b;
     color: white;
     background-color: transparent;
   }
   /* align-items: center; */
+}
+
+.started-section {
+  border-radius: 6px;
+  margin: 8rem auto;
+  margin-bottom: 2rem;
+  background-color: #fdf0e9;
+  height: 336px;
+  width: 1170px;
+  position: relative;
+
+  grid-template-columns: repeat(3, 1fr);
+
+  justify-content: center;
+  align-items: center;
+  /* position: relative; */
+
+  gap: 4rem;
+  .first {
+    position: relative;
+    top: -25%;
+    left: 49px;
+    .first-text {
+      position: relative;
+      padding-top: 2rem;
+      top: 10%;
+      left: 10%;
+      h5{
+        margin-bottom: 1rem;
+      }
+      h4{
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+        margin-bottom: 2rem;
+      }
+      button{
+        background-color: #EF6D58;
+        color: white;
+        width: 154px;
+        height: 48px;
+        border-radius: 6px;
+        border: none;
+      }
+    }
+  }
+
+  .third {
+    position: relative;
+    top: -20%;
+    margin-bottom: 2rem;
+  }
+  /* padding-bottom: 4rem; */
 }
