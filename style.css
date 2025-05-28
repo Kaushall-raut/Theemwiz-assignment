@@ -735,3 +735,61 @@ height: 1rem;
 .faq-border {
   border: 1px solid #f3d1bf;
 }
+
+.contact-section{
+  img{
+    position: absolute;
+z-index: -1;
+    width: 100%;
+  }
+}
+.contact-form{
+  padding: 4rem 3rem;
+  position: relative;
+  top: 120px;
+  max-width: 30rem;
+  background-color: white;
+  margin-left: 6rem;
+  height: 464px;
+  border-radius: 6px;
+  /* left: 10px; */
+
+  h4{
+    color: #391400;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+  }
+  input,textarea{
+    width: 100%;
+    margin: 0.5rem 0;
+    padding: 1rem;
+    border: 1px solid #F3D1BF;
+    border-radius: 6px;
+    height: 48px;
+    width: 374px;
+  }
+  textarea{
+    height: 5rem;
+  }
+  button{
+    background-color: #ef6d58;
+    text-transform: uppercase;
+    border-radius: 6px;
+    color: white;
+    font-weight: 900;
+    font-size: 14px;
+    height: 44px;
+    width: 159px;
+    /* text-align: center; */
+    padding: 10px;
+    border: 0;
+    margin-top: 1rem;
+  }
+  .contact-button{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center ;
+  }
+}
