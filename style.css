@@ -793,3 +793,43 @@ z-index: -1;
     align-items: center ;
   }
 }
+
+.footer{
+  height: auto;
+  min-height: 15rem;
+  margin-top: 15rem;
+  background-color:#fdf0e9;
+}
+.footer-link{
+  grid-template-columns: repeat(4,1fr);
+  padding: 6rem 2rem;
+  gap: 8rem;
+
+  h4{
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+  }
+  p{
+    text-transform: capitalize;
+    margin: 1rem 0;
+  }
+}
+
+.footer-border{
+  border-top: 1px solid #F3D1BF;
+  height: 1rem;
+  padding: 1rem;
+}
+.footer-last{
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 0;
+  div{
+    color: #391400A3;
+  }
+  span{
+    margin: 1rem;
+  }
+}
